@@ -5,7 +5,7 @@ import FlowChart from "../components/FlowChart";
 
 const Hero = () => {
   return (
-    <div className="relative z-0 pt-56 pb-10">
+    <div className="relative z-0 pt-40 lg:pt-56 pb-10">
       {/* Background Effect */}
       <div className="fixed top-56 right-24  blur-[200px] opacity-5 max-w-2xl w-full aspect-video rotate-45 bg-white rounded-full" />
       <div class="fixed top-[45%] left-[30%] z-[-2] h-56 w-[50%]  bg-[radial-gradient(#ffffff33_1px,transparent_1px)] bg-[size:15px_15px] rounded-full [mask-image:radial-gradient(black,transparent)]"></div>

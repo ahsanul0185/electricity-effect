@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .section-padding {
+      @apply mx-auto xl:max-w-6xl px-5 md:px-10 ;
+    }
+
+    .bg-glow {
+        @apply relative before:inset-0 before:absolute before:shadow-[0_0_18px_10px_#fd9a5b] before:bg-white before:rounded-full before:size-5 before:blur-[3px] before:-z-10
+    }
+
+    .dotted-bg {
+        @apply bg-[#0d0e11] bg-[radial-gradient(#ffffff1a_1px,transparent_1px)] bg-[size:5px_5px]
+    }
+  
+  }
+
+body {
+    background: #090a0c;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.mask-rect {
+    animation: slideMask 5s linear infinite;
+}
+
+@keyframes slideMask {
+    from {
+        x : -100%;
+    }
+    to {
+        x : 100%;
+    }
+}

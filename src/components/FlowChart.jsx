@@ -170,6 +170,9 @@ const FlowChart = () => {
 
         <div className="absolute md:left-[32.5%] lg:left-[32%] xl:left-[34.1%] 2xl:left-[36.5%] md:bottom-[47%] lg:bottom-[45.5%] xl:bottom-[45%] 2xl:bottom-[45%] before:w-4 before:h-1.5 before:left-0 bg-glow"></div>
 
+        <div className="absolute  md:right-[11%] lg:right-[10.5%] xl:right-[14.1%] 2xl:right-[18.5%] md:top-[32.5%] lg:top-[26.5%] xl:top-[24%] 2xl:top-[24%] before:w-4 lg:before:w-6 before:h-1 before:left-0 bg-glow"></div>
+
+
         <div className="absolute md:right-[21.2%] lg:right-[21%] xl:right-[24.1%] 2xl:right-[28.5%] md:bottom-[47%] lg:bottom-[45%] xl:bottom-[45%] 2xl:bottom-[45%] before:w-6 before:h-2 before:left-0 bg-glow"></div>
         <div className="absolute md:right-[16%] lg:right-[16%] xl:right-[20%] 2xl:right-[25%] md:bottom-[41%] lg:bottom-[39%] xl:bottom-[39%] 2xl:bottom-[39%] flex p-2  opacity-80 rotate-180 [mask-image:linear-gradient(to_left,black_10%,transparent)]">
           <div className="size-4 lg:size-5 border-2 border-white/40 rounded-[3px] rotate-45 bg-white/70"></div>

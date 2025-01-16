@@ -9,22 +9,7 @@ import { GoStack } from "react-icons/go";
 
 const MobileChart = () => {
   return (
-    <div className="block md:hidden relative ring-2 py-16 my-16 sm:my-32 px-4">
-      {/* <svg
-        className=""
-        width="100%"
-        height="751"
-        viewBox="0 0 447 751"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M221.125 0V175.634M221.125 175.634H402C425.748 175.634 445 194.885 445 218.634V254.494M221.125 175.634H45C21.2518 175.634 2 194.885 2 218.634V254.494M221.125 559.482H402C425.748 559.482 445 540.231 445 516.482V478.722M221.125 559.482H45C21.2518 559.482 2 540.231 2 516.482V478.722M221.125 559.482V751M2 254.494H445M2 254.494V327.653M445 254.494V327.653M445 327.653H2M445 327.653V403.663M2 327.653V403.663M2 403.663H445M2 403.663V478.722M445 403.663V478.722M445 478.722H2"
-          stroke="white"
-          strokeOpacity="0.3"
-          strokeWidth="3"
-        />
-      </svg> */}
+    <div className="block md:hidden relative py-16 my-16 sm:my-32 px-4">
 
       {/* Frame */}
       <div className="flex items-center flex-col">
@@ -41,42 +26,6 @@ const MobileChart = () => {
 
         <div className="bg-white/30 w-[2.5px]  h-44 block" />
       </div>
-
-      {/* <svg
-        className="absolute top-16 left-0"
-        width="100%"
-        height="644"
-        viewBox="0 0 377 644"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <defs>
-          <linearGradient id="gradiant">
-            <stop startOffset="0" stopColor="white" stopOpacity="0" />
-            <stop startOffset="0.2" stopColor="white" stopOpacity="1" />
-            <stop startOffset="0.2" stopColor="white" stopOpacity="1" />
-          </linearGradient>
-        </defs>
-
-        <mask id="gradiant-mask">
-          <rect
-            className="mask-rect"
-            x="0%"
-            y="-50%"
-            width="100%"
-            height="5%"
-            fill="url(#gradiant)"
-          />
-        </mask>
-
-        <path
-          d="M186.5 0V150.61M186.5 150.61H365C370.523 150.61 375 155.087 375 160.61V218.234M186.5 150.61H12C6.47715 150.61 2 155.087 2 160.61V218.234M186.5 479.769H365C370.523 479.769 375 475.292 375 469.769V410.515M186.5 479.769H12C6.47715 479.769 2 475.292 2 469.769V410.515M186.5 479.769V644M2 218.234H375M2 218.234V280.97M375 218.234V280.97M375 280.97H2M375 280.97V346.15M2 280.97V346.15M2 346.15H375M2 346.15V410.515M375 346.15V410.515M375 410.515H2"
-          stroke="white"
-          strokeOpacity="1"
-          strokeWidth="3"
-          mask="url(#gradiant-mask)"
-        />
-      </svg> */}
 
       {/* Icon Sand Clock */}
       <div className="absolute top-[5%] left-[50%] -translate-x-1/2 p-0.5 shadow-[0_10px_40px_10px_#5a607c33] rounded-full bg-gradient-to-r from-[#5a607c80] from-30% to-[#f0b89480] size-20">
@@ -124,7 +73,7 @@ const MobileChart = () => {
       </div>
 
       {/* Contents */}
-      <div className="absolute top-[41.6%] left-1/2 -translate-x-1/2 flex flex-col items-center w-[80%] gap-[1.94rem]">
+      <div className="absolute top-[41.6%] left-1/2 -translate-x-1/2 flex flex-col items-center w-[80%] gap-[1.97rem]">
         <div className="max-w-56 w-full p-0.5 shadow-[0_3px_4px_black] rounded-full bg-gradient-to-r from-[#f0b89480] from-30% to-[#5a607c80]">
           <div className="bg-[#0d0e11] rounded-full">
             <div className="relative w-full h-full py-2 px-6 rounded-full z-0">

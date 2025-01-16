@@ -9,7 +9,7 @@ import { GoStack } from "react-icons/go";
 
 const MobileChart = () => {
   return (
-    <div className="block md:hidden relative py-16 my-16 sm:my-32 px-4">
+    <div className="block md:hidden relative py-16 sm:my-32 px-4">
 
       {/* Frame */}
       <div className="flex items-center flex-col">

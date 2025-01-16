@@ -15,7 +15,7 @@ const MobileChart = () => {
       <div className="flex items-center flex-col">
         <div className="bg-white/30 w-[2.5px]  h-72 block" />
 
-        <div className="flex flex-col justify-between w-full h-96 rounded-[36px] border-[3px] border-white/20">
+        <div className="flex flex-col justify-between w-[85%] h-96 rounded-[36px] border-[3px] border-white/20">
           <hr className="border-t-[3px] w-full border-white/0" />
           <hr className="border-t-[3px] w-full border-white/20" />
           <hr className="border-t-[3px] w-full border-white/20" />

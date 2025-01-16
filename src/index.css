@@ -11,7 +11,7 @@
     }
 
     .bg-glow {
-        @apply relative before:inset-0 before:absolute before:shadow-[0_0_18px_10px_#fd9a5b] before:bg-white before:rounded-full before:size-5 before:blur-[3px] before:-z-10
+        @apply relative before:absolute before:shadow-[0_0_20px_3px_#f74231,4px_0_20px_5px_#f69959] before:bg-white before:rounded-full before:blur-[3px] before:-z-10
     }
 
     .dotted-bg {

@@ -32,6 +32,7 @@ const Hero = () => {
 
         <button className="mt-4 px-4 py-2 text-sm md:text-base inset-shadow-sm inset-shadow-white/20 bg-gradient-to-r from-[#5a607c] from-10% to-[#f0b894] rounded-full text-black relative before:inset-2 before:blur-[15px] hover:before:blur-[25px] before:content-['*'] before:absolute before:bg-gradient-to-r before:from-[#5a607c] before:from-10% before:to-[#f0b894] before:-z-10 before:duration-200">
           Smart AI-IQ 5
+          <div className="absolute bottom-5 right-6 before:w-5 before:h-4 before:left-0 bg-glow"></div>
         </button>
       </div>
 

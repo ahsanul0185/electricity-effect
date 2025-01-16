@@ -127,6 +127,57 @@ const FlowChart = () => {
           </div>
         </div>
 
+        {/* Glowing Lights */}
+        <div className="absolute md:top-[29%] lg:top-[23%] xl:top-[20%] 2xl:top-[20%] md:left-[9%] lg:left-[10%] xl:left-[13%] 2xl:left-[19%]">
+          <svg
+            width="23"
+            className="opacity-35 [mask-image:linear-gradient(to_right,black_10%,black_70%,transparent)]"
+            height="27"
+            viewBox="0 0 23 27"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22.5 25.2338V1.76619C22.5 0.988896 21.652 0.508783 20.9855 0.908698L1.42915 12.6425C0.781816 13.0309 0.781817 13.9691 1.42916 14.3575L20.9855 26.0913C21.652 26.4912 22.5 26.0111 22.5 25.2338Z"
+              fill="white"
+              fill-opacity="0.3"
+            />
+            <path
+              d="M22 1.76619V25.2338C22 25.6225 21.576 25.8625 21.2428 25.6626L1.6864 13.9287C1.36273 13.7345 1.36273 13.2655 1.6864 13.0713L21.2428 1.33744C21.576 1.13749 22 1.37754 22 1.76619Z"
+              stroke="white"
+              stroke-opacity="0.4"
+            />
+          </svg>
+
+          <div className="bg-glow before:shadow-[0_0_20px_1px_red,2px_0_20px_2px_#f69959] before:w-4 before:h-2 before:-top-4 before:left-5 before:opacity-90 before:-z-20"></div>
+        </div>
+
+        <div className="absolute size-4 lg:size-5 md:top-[30.5%] lg:top-[24.5%] xl:top-[21%] md:left-[40%] lg:left-[40%] xl:left-[41%] 2xl:left-[42.5%] border-2 border-white/40 rounded-[3px] rotate-45 bg-white/30">
+          <div className="before:w-3 before:h-2 -rotate-45 before:left-0 lg:before:left-1 before:top-0.5 bg-glow"></div>
+        </div>
+
+        <div className="absolute size-4 lg:size-5 md:top-[41.5%] lg:top-[38.5%] xl:top-[37%] md:left-[40.5%] lg:left-[40.5%] xl:left-[41.5%] 2xl:left-[43%] border-2 border-white/40 rounded-[3px] rotate-45 bg-white/30">
+          <div className="before:w-3 before:h-2 -rotate-45 before:left-0 lg:before:left-1 before:top-0.5 bg-glow"></div>
+        </div>
+
+        <div className="absolute size-4 lg:size-5 md:top-[51.5%] lg:top-[52.5%] xl:top-[53%] md:left-[41%] lg:left-[41%] xl:left-[42%] 2xl:left-[44%] border-2 border-white/40 rounded-[3px] rotate-45 bg-white/30">
+          <div className="before:w-3 before:h-2 -rotate-45 before:left-0 lg:before:left-1 before:top-0.5 bg-glow"></div>
+        </div>
+
+        <div className="absolute size-4 lg:size-5 md:top-[63.5%] lg:top-[68.5%] xl:top-[71%] md:left-[41.5%] lg:left-[42%] xl:left-[43%] 2xl:left-[44.5%] border-2 border-white/40 rounded-[3px] rotate-45 bg-white/30">
+          <div className="before:w-3 before:h-2 -rotate-45 before:left-0 lg:before:left-1 before:top-0.5 bg-glow"></div>
+        </div>
+
+        <div className="absolute md:left-[32.5%] lg:left-[32%] xl:left-[34.1%] 2xl:left-[36.5%] md:bottom-[47%] lg:bottom-[45.5%] xl:bottom-[45%] 2xl:bottom-[45%] before:w-4 before:h-1.5 before:left-0 bg-glow"></div>
+
+        <div className="absolute md:right-[21.2%] lg:right-[21%] xl:right-[24.1%] 2xl:right-[28.5%] md:bottom-[47%] lg:bottom-[45%] xl:bottom-[45%] 2xl:bottom-[45%] before:w-6 before:h-2 before:left-0 bg-glow"></div>
+        <div className="absolute md:right-[16%] lg:right-[16%] xl:right-[20%] 2xl:right-[25%] md:bottom-[41%] lg:bottom-[39%] xl:bottom-[39%] 2xl:bottom-[39%] flex p-2  opacity-80 rotate-180 [mask-image:linear-gradient(to_left,black_10%,transparent)]">
+          <div className="size-4 lg:size-5 border-2 border-white/40 rounded-[3px] rotate-45 bg-white/70"></div>
+          <div className=" -ml-3 size-4 lg:size-5 border-2 border-white/40 rounded-[3px] rotate-45 bg-white shadow-[-2px_0_3px_#00000033]"></div>
+          <div className="-ml-3 size-4 lg:size-5 border-2 border-white/40 rounded-[3px] rotate-45 bg-white shadow-[-2px_0_3px_#00000033]"></div>
+          <div className="-ml-3 size-4 lg:size-5 border-2 border-white/40 rounded-[3px] rotate-45 bg-white/80 shadow-[-2px_0_3px_#00000033]"></div>
+        </div>
+
         {/* ------ Texts ------ */}
         <div className="absolute top-24 lg:top-[4.5rem] xl:top-14 left-[46%] lg:left-[48%] flex flex-col gap-[0.3rem] lg:gap-[0.58rem] xl:gap-2">
           <div className="max-w-56 p-0.5 shadow-[0_3px_4px_black] rounded-full bg-gradient-to-r from-[#f0b89480] from-30% to-[#5a607c80]">
@@ -183,18 +234,21 @@ const FlowChart = () => {
                   <div className="size-3 rotate-45 lg:size-4 rounded-sm bg-gradient-to-bl from-gray-700 to-gray-100"></div>
                 </div>
 
-                <div className="pl-10 lg:pl-8 xl:pl-14 text-sm xl:text-xl flex gap-[0.7px]">
+                <div className="select-none pl-10 lg:pl-8 xl:pl-14 text-sm xl:text-xl flex gap-[0.7px]">
                   <img
+                    draggable={false}
                     className="h-5 xl:h-7 opacity-70"
                     src={iconVoice}
                     alt=""
                   />
                   <img
+                    draggable={false}
                     className="h-5 xl:h-7 opacity-70"
                     src={iconVoice}
                     alt=""
                   />
                   <img
+                    draggable={false}
                     className="h-5 xl:h-7 opacity-70"
                     src={iconVoice}
                     alt=""
